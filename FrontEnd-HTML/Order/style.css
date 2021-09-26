@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+
+}
+
+#header {
+    width: 100%;
+    height: 112px;
+    position: relative;
+}
+
+#logo {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+#logo a img {
+    --height: 96px;
+    max-width: 32%;
+    max-height: var(--height);
+    position: absolute;
+    top: 8px;
+    left: 20%;
+
+}
+
+#menu {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+}
+
+#menu >.list {
+    max-width: 100%;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#menu li {
+    padding: 0 10px;
+    display: inline-block;
+}
+
+#menu li a {
+    color: rgb(255, 107, 129);
+    line-height: var(--height);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#order {
+    width: 100%;
+    padding-top: 75%;
+    background-color: #ccc;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -650px;
+    position: relative;
+}
+
+.home {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}
+
+.home-title1 {
+    color: #fff;
+}
+
+.home-content-food {
+    border: 1px #fff solid;
+    border-radius: 10px;
+    display: flex;
+}
+
+.home-content-food-img {
+    width: 25%;
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 15px;  
+    margin-bottom: 15px;
+    margin-right: -25px;
+}
+
+.home-content-food-content {
+    width: 75%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.home-content-food-title {
+    padding-bottom: 5px;
+}
+
+.home-content-foode-price {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.home-content-food-Quantity {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.home-content-food-action {
+    width: 80%;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.home-title2{
+    padding: 15px;
+}
+
+.home-information {
+    border: 1px #fff solid;
+    border-radius: 10px;
+}
+
+.home-information-title {
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.home-information-name,
+.home-information-phone,
+.home-information-email,
+.home-information-address {
+    width: 90%;
+    margin-left: 15px;
+}
+
+.home-information-address{
+    height: 200px;
+}
+
+.home-information-address::placeholder{
+    position: relative;
+    
+}
+
+.home-information-btn {
+    width: 100px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(255, 107, 129);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+
+#footer {
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon-link {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.icon {
+    color: #128ce4;
+}
+
+.footer-describe {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+
+
+
+

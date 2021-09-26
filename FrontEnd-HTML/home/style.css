@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+
+}
+
+#header {
+    width: 100%;
+    height: 112px;
+    position: relative;
+}
+
+#logo {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+#logo a img {
+    --height: 96px;
+    max-width: 32%;
+    max-height: var(--height);
+    position: absolute;
+    top: 8px;
+    left: 20%;
+
+}
+
+#menu {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+}
+
+#menu >.list {
+    max-width: 100%;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#menu li {
+    padding: 0 10px;
+    display: inline-block;
+}
+
+#menu li a {
+    color: rgb(255, 107, 129);
+    line-height: var(--height);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#search {
+    width: 100%;
+    height: 164px;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search div {
+    
+}
+
+#search input {
+    width: 300px;
+    height: 30px;
+    padding: 3px;
+    border-radius:5px;
+    outline: none;
+}
+
+#search button {
+    padding: 3px;
+    height: 30px;
+    width: 50px;
+    background-color: rgb(255, 107, 129);
+    color:  #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#explore {
+    height: 400px;
+    position: relative;
+}
+
+#explore .EF {
+    text-align: center;
+    line-height: 80px;
+}
+
+.food {
+    display: inline-flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#explore .pizza,
+#explore .burger,
+#explore .momo {
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    margin: 0 32px;
+    color: #fff;
+    border-radius:8px;
+}
+
+#explore .pizza {
+    background-image: url("images/pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#explore .burger {
+    background-image: url("images/burger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#explore .momo {
+    background-image: url("images/momo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.food h4 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
+#content {
+    background-color: rgb(236, 236, 236);
+    height: 850px;
+}
+
+#content .Food-menu{
+    text-align: center;
+    line-height: 80px;
+}
+
+.content-food {
+}
+
+.content-food-left,
+.content-food-right {
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-food-left{
+    align-items: flex-end;
+}
+
+
+.content-food-item {
+    width: 75%;
+    height: 200px;
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    border-radius: 15px;
+}
+
+
+.content-food-item-img {
+    width: 25%;
+    height: 100%;
+    margin-top: 25px;
+    margin-left: 25px;
+    
+}
+
+.content-food-item-home {
+    width: 75%;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+
+.content-food-item-home-title {
+    padding: 10px 0;
+}
+
+.content-food-item-home-price {
+    font-size: 1.17rem;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.content-food-item-home-describe {
+    width: 75%;
+    color: rgb(118, 127, 142);
+    padding-bottom: 10px;
+}
+
+.content-food-item-home-action {
+    width: 84px;
+    height: 26px;
+    background-color:rgb(255, 107, 129);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#footer {
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon-link {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.icon {
+    color: #128ce4;
+}
+
+.footer-describe {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+
+
+
+

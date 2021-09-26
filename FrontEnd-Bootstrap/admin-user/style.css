@@ -1,0 +1,38 @@
+.text-color{
+    color: #ff6b81 !important; 
+}
+
+.bg-cuatoi{
+    background-color: #f1f2f6;
+}
+
+.ml-cuatoi{
+    margin-left: 10%;
+}
+
+.mr-cuatoi{
+    margin-right: 10%;
+}
+
+.left-cuatoi{
+    left:10%;
+}
+
+.footer-text-color{
+    color: #250ad7;
+}
+
+
+.bg-footer-cuatoi{
+    background: #ff6b81;
+}
+
+.width-fit{
+    width:max-content;
+}
+
+.width-table{
+    width: 80%;
+}
+
+

@@ -1,0 +1,53 @@
+.text-color{
+    color: #ff6b81 !important; 
+}
+
+
+.bg-cuatoi{
+    height: 250px;
+}
+
+.color-cuatoi{
+    background-color: #ff6b81 !important;
+}
+
+.h-10{
+    height: 10% !important;
+}
+
+.explore-food-img{
+    margin: 0 15px;
+    max-width: 300px;
+    max-height: 400px;
+}
+
+.explore-food {
+    position: relative;
+
+}
+
+.explore-food-title{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.rounded {
+    border-radius: 1rem !important;
+}
+
+.explore-food{
+    margin-bottom: 10px;
+}
+
+.font-size-cuatoi{
+    font-size: 0.75rem !important;
+}
+
+.footer-icon{
+    font-size: 2rem;
+    color: #128ce4;
+}
+

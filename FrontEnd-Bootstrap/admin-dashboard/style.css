@@ -1,0 +1,34 @@
+.text-color{
+    color: #ff6b81 !important; 
+}
+
+.bg-cuatoi{
+    background-color: #f1f2f6;
+}
+
+.ml-cuatoi{
+    margin-left: 10%;
+}
+
+
+
+.dashboard-box{
+    width: 18%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4rem;
+    background-color: #FFF;
+}
+
+.left-cuatoi{
+    left:10%;
+}
+
+.footer-text-color{
+    color: #250ad7;
+}
+
+
+.bg-footer-cuatoi{
+    background: #ff6b81;
+}
